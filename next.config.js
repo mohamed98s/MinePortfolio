@@ -4,9 +4,9 @@ const nextConfig = {
   swcMinify: true,
 }
 
-// module.exports = nextConfig
+module.exports = nextConfig
 
 
-module.exports = {
-  output: 'export',
-}
+// module.exports = {
+//   output: 'export',
+// }

@@ -29,11 +29,11 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="mb-4 max-w-[400px] mx-auto lg:mx-0"
+              className="mb-4 max-w-[400px] mx-auto lg:mx-0 xl:text-lg text-sm"
             >
               Explore my frontend projects to see how I transform creative
               concepts into responsive and user-friendly web applications. Each
-              project showcases my skills in HTML, CSS, and JavaScript,
+              project showcases my skills in HTML, CSS, JavaScript, React.js and Next.js
               reflecting my commitment to delivering high-quality digital
               experiences.
             </motion.p>

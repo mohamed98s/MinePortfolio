@@ -31,11 +31,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              As a dedicated Frontend Developer, I craft responsive and visually
-              engaging web interfaces that provide exceptional user experiences.
-              Currently, I&apos;m expanding my skills to become a Fullstack .NET
-              Developer, aiming to deliver comprehensive and robust web
-              solutions that meet all your development needs.
+              I craft responsive, engaging web interfaces. Now expanding into Fullstack .NET developer to deliver robust web solutions.
             </motion.p>
           </div>
 

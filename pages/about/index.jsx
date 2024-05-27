@@ -155,12 +155,11 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
+            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 xl:text-lg text-sm"
           >
-            I harness my creativity and technical skills to transform ideas into
-            visually appealing and interactive web experiences. With a keen eye
-            for detail and a passion for clean code, I am committed to building
-            seamless and engaging user interfaces that not only meet but exceed
+            I transform ideas into visually appealing, interactive web
+            experiences. With a keen eye for
+            detail, I build seamless and engaging user interfaces that exceed
             client expectations.
           </motion.p>
           {/* counters */}
@@ -232,16 +231,20 @@ const About = () => {
               return (
                 <div
                   key={itemIndex}
-                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
+                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 xl:text-lg text-sm"
                 >
                   {/* title */}
                   <div className="font-light mb-2 md:mb-0">{item.title}</div>
                   <div className="hidden md:flex">-</div>
                   <div>{item.stage}</div>
-                  <div className="flex gap-x-4">
+                  <div className="flex gap-x-4 xl:flex-nowrap justify-center xl:justify-start flex-wrap gap-3">
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
-                      return <div key={itemIndex} className="text-2xl text-white">{icon}</div>;
+                      return (
+                        <div key={itemIndex} className="text-2xl text-white">
+                          {icon}
+                        </div>
+                      );
                     })}
                   </div>
                 </div>
