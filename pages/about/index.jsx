@@ -145,7 +145,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2"
+            className="h2  mb-1"
           >
             Captivating <span className="text-accent">stories</span> birth
             magnificent designs.
