@@ -9,10 +9,10 @@ import {
 
 const Socials = () => {
   return <div className="flex items-center gap-x-5 text-2xl">
-    <Link href={'/'} className="hover:text-accent transition-all duration-300">
+    <Link href={'https://github.com/mohamed98s'} target="_blank" className="hover:text-accent transition-all duration-300">
       <RiGithubFill/>
     </Link>
-    <Link href={'/'} className="hover:text-accent transition-all duration-300">
+    <Link href={'https://www.linkedin.com/in/mohsayed0098/'} target="_blank" className="hover:text-accent transition-all duration-300">
       <RiLinkedinBoxFill/>
     </Link>
   </div>;
