@@ -234,7 +234,7 @@ const About = () => {
                   className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 xl:text-lg text-sm"
                 >
                   {/* title */}
-                  <div className="font-light xl:mb-2 md:mb-0">{item.title}</div>
+                  <div className="font-light md:mb-0">{item.title}</div>
                   <div className="hidden md:flex">-</div>
                   <div>{item.stage}</div>
                   <div className="flex gap-x-4 xl:flex-nowrap justify-center xl:justify-start flex-wrap gap-3">
