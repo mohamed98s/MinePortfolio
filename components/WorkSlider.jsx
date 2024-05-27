@@ -6,18 +6,22 @@ const workSlides = {
         {
           title: "title",
           path: "/2w.png",
+          link: "https://mohamed98s.github.io/Weather-app/",
         },
         {
           title: "title",
           path: "/recipe.png",
+          link: "https://mohamed98s.github.io/Recipes-webpage-using-api/",
         },
         {
           title: "title",
           path: "/login.png",
+          link: "https://mohamed98s.github.io/signup-login/",
         },
         {
           title: "title",
           path: "/ecom.png",
+          link: "https://mohamed98s.github.io/newecommerce/",
         },
       ],
     },
@@ -26,18 +30,22 @@ const workSlides = {
         {
           title: "title",
           path: "/jquery.png",
+          link: "https://mohamed98s.github.io/jQuery-assignment/",
         },
         {
           title: "title",
           path: "/ecomtype.png",
+          link: "https://mine-portfolio-vert.vercel.app/",
         },
         {
           title: "title",
           path: "/portfolio.png",
+          link: "https://mine-portfolio-vert.vercel.app/",
         },
         {
           title: "title",
           path: "/thumb3.jpg",
+          link: "https://mohamed98s.github.io/TODO-APP/",
         },
       ],
     },
@@ -95,7 +103,7 @@ const WorkSlider = () => {
                           <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200"><BsArrowRight /></div>
                         </div>
                       </div>
-                    </div>
+                    </a>
                   </div>
                 );
               })}
